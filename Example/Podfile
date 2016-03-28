@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MyFirstLib_Example', :exclusive => true do
+  pod 'MyFirstLib', :path => '../'
+end
+
+target 'MyFirstLib_Tests', :exclusive => true do
+  pod 'MyFirstLib', :path => '../'
+
+  
+end
