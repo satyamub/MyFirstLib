@@ -1,0 +1,14 @@
+PODS:
+  - MyFirstLib (0.1.0)
+
+DEPENDENCIES:
+  - MyFirstLib (from `../`)
+
+EXTERNAL SOURCES:
+  MyFirstLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MyFirstLib: 1f14d85fa3f4e49b9e1974642b9091c29fe6af1e
+
+COCOAPODS: 0.38.2
